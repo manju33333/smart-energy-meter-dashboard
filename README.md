@@ -9,7 +9,17 @@ The **Smart Energy Meter Dashboard** is a web-based application built using **Dj
 - Dynamic graph plotting of energy usage  
 - Responsive web design with HTML, CSS, and Bootstrap  
 - Easily extendable for IoT integration
-- 
+  
+## Project Structure
+smart-energy-meter-dashboard/
+│
+├── smart_meter/ # Main Django app
+├── monitor/ # Simulation scripts
+├── db.sqlite3 # Database file
+├── manage.py # Django management script
+├── send_fake_data.py # Script to simulate meter readings
+└── README.md # Project documentation
+
 ## Technologies Used
 - Python (Django)  
 - HTML, CSS, Bootstrap  
